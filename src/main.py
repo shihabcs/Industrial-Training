@@ -124,7 +124,7 @@ def password_protect(input_pdf, output_pdf, password):
 def main():
     pdf_files = list_pdfs()
     if not pdf_files:
-        print("No PDF files found in the current directory.")
+        print("No PDF files exist.")
         return
 
     print("\nChoose an operation:")
