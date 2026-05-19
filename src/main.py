@@ -1,6 +1,8 @@
 import os
 import PyPDF2
 
+"""New Comment"""
+
 def list_pdfs():
     """Scan current directory for PDF files"""
     pdf_files = [f for f in os.listdir('.') if f.lower().endswith('.pdf')]
