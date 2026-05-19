@@ -46,14 +46,13 @@ def parse_page_input(pages_str, total_pages):
 def choose_rotation():
     """Ask user to choose rotation angle"""
     print("\nRotation options:")
-    print("1. 90° clockwise")
-    print("2. 180°")
-    print("3. 270° clockwise (90° counter-clockwise)")
-    
+    print("1. 270° clockwise (90° counter-clockwise)")
+    print("2. 90° clockwise")
+    print("3. 180°")
     rotation_map = {
-        "1": 90,
-        "2": 180,
-        "3": 270
+        "1": 270,
+        "2": 90,
+        "3": 180
     }
     
     while True:
