@@ -129,7 +129,7 @@ def main():
 
     print("\nChoose an operation:")
     print("1. Extract pages into new PDF")
-    print("2. Merge multiple PDFs")
+    print("2.... Merge multiple PDFs")
     print("3. Delete pages from a PDF")
     print("4. Add password to a PDF")
     print("5. Rotate pages in a PDF")
